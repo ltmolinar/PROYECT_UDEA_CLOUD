@@ -1,0 +1,12 @@
+name: sklearn-aml-env
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - pip
+  - pandas
+  - pip:
+    - azureml-sdk
+    - mlxtend
+    - xlrd
+    - azureml-defaults
